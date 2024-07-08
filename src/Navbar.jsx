@@ -1,10 +1,10 @@
-import React from "react";
-import "./Navbar.css";
-import logo from "../../assets/bird_2.jpg";
+import React from 'react'
+import './Navbar.css'
+import logo from './assets/letter-c.png';
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className='navbar'>
       <img src={logo} alt="" />
       <ul className="nav-menu">
         <li>Home</li>
@@ -15,7 +15,7 @@ const Navbar = () => {
       </ul>
       <div className="nav-connect">Connect With Me</div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

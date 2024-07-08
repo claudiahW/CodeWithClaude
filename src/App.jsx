@@ -1,11 +1,12 @@
-import React from "react";
-import Navbar from "./Components/Navbar/Navbar.jsx";
+import React from 'react';
+import Navbar from './Navbar.jsx'
 
 const App = () => {
   return (
-    <div>
+   <>
       <Navbar />
-    </div>
+      </>
+    
   );
 };
 
