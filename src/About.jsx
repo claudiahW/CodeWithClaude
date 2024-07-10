@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import theme_pattern from "./assets/cloud.svg";
-import profile_img from "./assets/claudiah8.jpeg";
+import profile_img from "./assets/claudiah2.jpeg";
 
 const About = () => {
   return (
