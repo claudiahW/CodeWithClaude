@@ -2,6 +2,7 @@ import React from "react";
 import "./MyWork.css";
 import theme_pattern from "./assets/ClaudiahW.jpeg";
 import mywork_data from "./assets/mywork_data";
+import arrow_icon from './assets/arrow.svg'
 
 const MyWork = () => {
   return (
@@ -17,7 +18,7 @@ const MyWork = () => {
       </div>
       <div className="mywork-showmore">
         <p>Show More</p>
-        <img src="" alt="" />
+        <img src={arrow_icon} alt="" />
       </div>
     </div>
   );
