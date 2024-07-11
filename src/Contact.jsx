@@ -39,7 +39,7 @@ const Contact = () => {
 <label htmlFor="">Your Name</label>
 <input type="text" placeholder="Enter your name" name="name"/>
 <label htmlFor="">Your Email</label>
-<input type="email" placeholder="example@test.com" name="email"/>
+<input type="email" placeholder="Enter your email" name="email"/>
 <label htmlFor="">Write Your Message Here</label>
 <textarea name="message" rows="8" id="" placeholder="Enter your message"></textarea>
 <button type="submit" className="contact-submit">Submit</button>
