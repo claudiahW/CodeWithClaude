@@ -4,7 +4,7 @@ import profile_img from "./assets/claudiah1.jpeg";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <img src={profile_img} alt="" />
       <h1><span>I'm Claudiah Wanjiru,</span> frontend developer based in Kenya. </h1>
       <p>
