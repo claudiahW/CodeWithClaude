@@ -31,9 +31,9 @@ const Footer = () => {
         © 2024 Code With Claude.All rights reserved
         </p>
         <div className="footer-bottom-right">
-            <p></p>
-            <p></p>
-            <p></p>
+            <p>Term of Services</p>
+            <p>Privacy Policy</p>
+            <p>Connect With Me</p>
         </div>
       </div>
     </div>
