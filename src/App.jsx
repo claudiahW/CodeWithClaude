@@ -4,6 +4,7 @@ import Hero from "./Hero.jsx";
 import About from "./About.jsx";
 import Services from "./Services.jsx";
 import MyWork from "./MyWork.jsx";
+import Contact from "./Contact.jsx";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <Services />
       <MyWork />
+      <Contact />
     </div>
   );
 };

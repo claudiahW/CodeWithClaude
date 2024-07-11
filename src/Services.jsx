@@ -1,8 +1,8 @@
 import React from 'react'
 import './Services.css'
-import theme_pattern from './assets/claudiah2.jpeg'
+import theme_pattern from './assets/cloudbackup.svg'
 import Services_Data from './assets/services_data.js'
-import arrow_icon from './assets/arrow.svg'
+import arrow_icon from './assets/arrowright.svg'
 
 const Services = () => {
   return (
