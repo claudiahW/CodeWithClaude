@@ -6,6 +6,29 @@ import location_icon from "./assets/locationicon.svg";
 import call_icon from "./assets/phoneicon.svg";
 
 const Contact = () => {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "bc3b0a18-578a-4012-b4e5-2138af0f4a93");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+
+    if (res.success) {
+     alert(res.message);
+    }
+  };
+
   return (
     <div id="contact" className="contact">
       <div className="contact-title">
@@ -35,17 +58,23 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <form className="contact-right">
-<label htmlFor="">Your Name</label>
-<input type="text" placeholder="Enter your name" name="name"/>
-<label htmlFor="">Your Email</label>
-<input type="email" placeholder="Enter your email" name="email"/>
-<label htmlFor="">Write Your Message Here</label>
-<textarea name="message" rows="8" id="" placeholder="Enter your message"></textarea>
-<button type="submit" className="contact-submit">Submit</button>
+
+        <form onSubmit={onSubmit} className="contact-right">
+          <label htmlFor="">Your Name</label>
+          <input type="text" placeholder="Enter your name" name="name" />
+          <label htmlFor="">Your Email</label>
+          <input type="email" placeholder="Enter your email" name="email" />
+          <label htmlFor="">Write Your Message Here</label>
+          <textarea
+            name="message"
+            rows="8"
+            id=""
+            placeholder="Enter your message"
+          ></textarea>
+          <button type="submit" className="contact-submit">
+            Submit
+          </button>
         </form>
-
-
       </div>
     </div>
   );
