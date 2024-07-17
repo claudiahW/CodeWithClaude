@@ -1,13 +1,12 @@
 * {
-  margin: 0 ;
+  margin: 0;
   padding: 0;
-
 }
 
-body{
+body {
   height: 100vh;
   background: #161513;
   color: #ccc;
-  font-family: 'outfit';
-
+  font-family: "outfit";
 }
+

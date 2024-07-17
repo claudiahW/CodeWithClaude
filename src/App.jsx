@@ -10,7 +10,7 @@ import Footer from "./Footer.jsx";
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <About />
       <Services />
