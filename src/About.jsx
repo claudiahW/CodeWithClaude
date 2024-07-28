@@ -24,9 +24,9 @@ const About = () => {
             <p>
               I have a strong background in web development, having worked as
               both a front-end and back-end developer for several years. My
-              skills include HTML, CSS, JavaScript, ReactJS, NodeJS, PHP, and
+              skills include HTML, CSS, JavaScript, ReactJS,Python, PHP, and
               MySQL. I am also familiar with popular frameworks such as
-              Bootstrap and Angular.
+              Bootstrap, Tailwind CSS and Angular.
             </p>
           </div>
           <div className="about-skills">
@@ -36,12 +36,12 @@ const About = () => {
             </div>
 
             <div className="about-skill">
-              <p>React JS</p>
-              <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skill">
               <p>JavaScript</p>
               <hr style={{ width: "60%" }} />
+            </div>
+            <div className="about-skill">
+              <p>React JS</p>
+              <hr style={{ width: "70%" }} />
             </div>
             <div className="about-skill">
               <p>Angular</p>
@@ -54,6 +54,7 @@ const About = () => {
           </div>
         </div>
       </div>
+
       <div className="about-achievements">
         <div className="about-achievement">
           <h1>4+</h1>
