@@ -15,8 +15,8 @@ const Hero = () => {
         frontend technologies.
       </p>
       <div className="hero-action">
-        <div className="hero-connect">Connect With Me</div>
-        <div className="hero-resume">My Resume</div>
+        <div className="hero-connect">Connect with me</div>
+        <div className="hero-resume">My resume</div>
       </div>
     </div>
   );
