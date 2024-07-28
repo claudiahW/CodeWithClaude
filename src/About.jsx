@@ -10,6 +10,7 @@ const About = () => {
         <h1>About me</h1>
         <img src={theme_pattern} alt="" />
       </div>
+
       <div className="about-sections">
         <div className="about-left">
           <img src={profile_img} alt="" />
@@ -25,7 +26,7 @@ const About = () => {
               both a front-end and back-end developer for several years. My
               skills include HTML, CSS, JavaScript, ReactJS, NodeJS, PHP, and
               MySQL. I am also familiar with popular frameworks such as
-              Bootstrap and Laravel.
+              Bootstrap and Angular.
             </p>
           </div>
           <div className="about-skills">
@@ -43,8 +44,12 @@ const About = () => {
               <hr style={{ width: "60%" }} />
             </div>
             <div className="about-skill">
-              <p>PHP</p>
+              <p>Angular</p>
               <hr style={{ width: "50%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Python</p>
+              <hr style={{ width: "30%" }} />
             </div>
           </div>
         </div>

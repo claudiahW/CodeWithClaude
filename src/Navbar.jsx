@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./Navbar.css";
-import logo from "./assets/navlogo.svg";
+import logo from "./assets/cloudbackup.svg";
 import underline_icon from "./assets/emailicon.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_open from "./assets/letter-c.png";
