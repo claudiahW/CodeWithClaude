@@ -25,7 +25,7 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-     alert(res.message);
+      alert(res.message);
     }
   };
 
@@ -72,7 +72,7 @@ const Contact = () => {
             placeholder="Enter your message"
           ></textarea>
           <button type="submit" className="contact-submit">
-            Submit
+            Submit now
           </button>
         </form>
       </div>
