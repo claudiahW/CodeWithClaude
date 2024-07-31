@@ -10,23 +10,23 @@ const Navbar = () => {
       <img src={logo} alt="" />
       <ul className="nav-menu">
         <li>
-          <p>Home</p>
+          <p onClick={()=>setMenu("home")}>Home</p>
           {menu === "home" ? <img src={underline} /> : <></>}
         </li>
         <li>
-          <p>About Me</p>
+          <p onClick={()=>setMenu("about")}>About Me</p>
           {menu === "about" ? <img src={underline} /> : <></>}
         </li>
         <li>
-          <p>Services</p>
+          <p  onClick={()=>setMenu("services")}>Services</p>
           {menu === "services" ? <img src={underline} /> : <></>}
         </li>
         <li>
-          <p>Portfolio</p>
+          <p  onClick={()=>setMenu("work")}>Portfolio</p>
           {menu === "work" ? <img src={underline} /> : <></>}
         </li>
         <li>
-          <p>Contact</p>
+          <p  onClick={()=>setMenu("contact")}>Contact</p>
           {menu === "contact" ? <img src={underline} /> : <></>}
         </li>
       </ul>
