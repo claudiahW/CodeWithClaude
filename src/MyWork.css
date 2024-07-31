@@ -71,6 +71,7 @@
   }
   .mywork-container {
     grid-template-columns: 1fr 1fr;
+    gap: 30px;
   }
   .mywork-container img {
     width: 100%;
