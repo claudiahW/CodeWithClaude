@@ -35,7 +35,20 @@
   display: flex;
   margin: auto;
 }
-.anchor-link{
+.anchor-link {
   text-decoration: none;
   color: #fff;
+}
+@media(max-width:768px){
+  .navbar{
+    margin: 20px 50px;
+  }
+  .nav-connect{
+    display: none;
+  }
+  .nav-mob-open{
+    display: block;
+    position: fixed;
+    right: 30px;
+  }
 }
